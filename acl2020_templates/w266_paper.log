@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.7)  23 JUL 2022 23:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.7)  25 JUL 2022 19:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -306,7 +306,7 @@ See the natbib package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.34 ...mand\NAT@force@numbers{}\NAT@force@numbers
+l.39 ...mand\NAT@force@numbers{}\NAT@force@numbers
                                                   
 Check the bibliography entries for non-compliant syntax,
 or select author-year BibTeX style, e.g. plainnat
@@ -416,7 +416,7 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 ! Undefined control sequence.
 <argument> ...ore \centering \aclhv \confidential 
                                                   \@@par 
-l.73 
+l.70 
      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -425,7 +425,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 73.
+(Font)              <10.95> on input line 70.
 [1{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
@@ -434,36 +434,36 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 <baseline.png, id=14, 982.67125pt x 432.61626pt>
 File: baseline.png Graphic file (type png)
 <use baseline.png>
-Package pdftex.def Info: baseline.png  used on input line 88.
+Package pdftex.def Info: baseline.png  used on input line 86.
 (pdftex.def)             Requested size: 219.08612pt x 96.44989pt.
-<two-tower.png, id=16, 1026.83624pt x 348.30125pt>
-File: two-tower.png Graphic file (type png)
-<use two-tower.png>
-Package pdftex.def Info: two-tower.png  used on input line 98.
-(pdftex.def)             Requested size: 219.08612pt x 74.30933pt.
 
 ! Undefined control sequence.
 <argument> ...ore \centering \aclhv \confidential 
                                                   \@@par 
-l.106 
-      
+l.93 
+     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[2 <./baseline.png> <./two-tower.png>]
-<doc_size_distribution.png, id=30, 740.7675pt x 386.44376pt>
+[2 <./baseline.png>]
+<two-tower.png, id=27, 1026.83624pt x 348.30125pt>
+File: two-tower.png Graphic file (type png)
+<use two-tower.png>
+Package pdftex.def Info: two-tower.png  used on input line 96.
+(pdftex.def)             Requested size: 219.08612pt x 74.30933pt.
+<doc_size_distribution.png, id=28, 740.7675pt x 386.44376pt>
 File: doc_size_distribution.png Graphic file (type png)
 <use doc_size_distribution.png>
-Package pdftex.def Info: doc_size_distribution.png  used on input line 108.
+Package pdftex.def Info: doc_size_distribution.png  used on input line 106.
 (pdftex.def)             Requested size: 219.08612pt x 114.28885pt.
 
 ! Illegal parameter number in definition of \GetTitleStringResult.
 <to be read again> 
                     
-l.109 ...and their sequence lengths distribution.}
+l.107 ...and their sequence lengths distribution.}
                                                   
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -472,7 +472,7 @@ are all screwed up? I'm going to assume that you meant ##.
 ! Illegal parameter number in definition of \GTS@GlobalString.
 <to be read again> 
                     
-l.109 ...and their sequence lengths distribution.}
+l.107 ...and their sequence lengths distribution.}
                                                   
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -481,7 +481,7 @@ are all screwed up? I'm going to assume that you meant ##.
 ! Illegal parameter number in definition of \@tempa.
 <to be read again> 
                     
-l.109 ...and their sequence lengths distribution.}
+l.107 ...and their sequence lengths distribution.}
                                                   
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -490,7 +490,7 @@ are all screwed up? I'm going to assume that you meant ##.
 ! Illegal parameter number in definition of \caption@tempa.
 <to be read again> 
                     
-l.109 ...and their sequence lengths distribution.}
+l.107 ...and their sequence lengths distribution.}
                                                   
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -499,7 +499,7 @@ are all screwed up? I'm going to assume that you meant ##.
 ! You can't use `macro parameter character #' in restricted horizontal mode.
 <argument> Plot showing the ##
                                of sample (question, answer) pairs and their ...
-l.109 ...and their sequence lengths distribution.}
+l.107 ...and their sequence lengths distribution.}
                                                   
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -509,7 +509,7 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 ! You can't use `macro parameter character #' in horizontal mode.
 <argument> Plot showing the ##
                                of sample (question, answer) pairs and their ...
-l.109 ...and their sequence lengths distribution.}
+l.107 ...and their sequence lengths distribution.}
                                                   
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -518,23 +518,13 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 125.
+(caption)                particular \caption on input line 123.
 See the caption package documentation for explanation.
 
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 159.
-See the caption package documentation for explanation.
-
-<metric_plot.png, id=31, 620.3175pt x 316.18124pt>
-File: metric_plot.png Graphic file (type png)
-<use metric_plot.png>
-Package pdftex.def Info: metric_plot.png  used on input line 163.
-(pdftex.def)             Requested size: 219.08612pt x 111.6686pt.
 ! Undefined control sequence.
 <argument> ...ore \centering \aclhv \confidential 
                                                   \@@par 
-l.174 
+l.141 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -542,37 +532,69 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[3 <./doc_size_distribution.png> <./metric_plot.png>]
-Underfull \hbox (badness 1067) in paragraph at lines 196--197
+[3 <./two-tower.png> <./doc_size_distribution.png>]
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 157.
+See the caption package documentation for explanation.
+
+<metric_plot.png, id=44, 620.3175pt x 316.18124pt>
+File: metric_plot.png Graphic file (type png)
+<use metric_plot.png>
+Package pdftex.def Info: metric_plot.png  used on input line 161.
+(pdftex.def)             Requested size: 219.08612pt x 111.6686pt.
+
+Underfull \hbox (badness 1067) in paragraph at lines 194--195
 \OT1/ptm/m/it/10 (+20) els\OT1/ptm/m/n/10 (+20) , Mas-ter's The-sis, Albert-Lud
 wigs-University
  []
 
 
-Underfull \hbox (badness 1558) in paragraph at lines 200--201
+Underfull \hbox (badness 1558) in paragraph at lines 198--199
 []\OT1/ptm/m/n/10 (+20) Christopher Man-ning and Pandu Nayak. In-for-
  []
 
 
-Underfull \hbox (badness 3229) in paragraph at lines 200--201
+Underfull \hbox (badness 3229) in paragraph at lines 198--199
 \OT1/ptm/m/n/10 (+20) ma-tion Re-trieval and Web Search. 2019. url:
  []
 
 
-Underfull \hbox (badness 1052) in paragraph at lines 204--205
+Underfull \hbox (badness 1052) in paragraph at lines 202--203
 []\OT1/ptm/m/n/10 (+20) Moussa Taifi, \OT1/ptm/m/it/10 (+20) MRR vs MAP vs NDCG
 : Rank-
  []
 
 
-Underfull \hbox (badness 2617) in paragraph at lines 204--205
+Underfull \hbox (badness 2617) in paragraph at lines 202--203
 \OT1/ptm/m/it/10 (+20) Aware Eval-u-a-tion Met-rics And When To Use
  []
 
 ! Undefined control sequence.
 <argument> ...ore \centering \aclhv \confidential 
                                                   \@@par 
-l.219 \end{document}
+l.203 
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 203.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 203.
+[4 <./metric_plot.png>]
+Underfull \hbox (badness 4454) in paragraph at lines 208--209
+[]\OT1/ptm/m/n/10 (+20) A. Abdi, N. Idris, Z. Ah-mad \OT1/ptm/m/it/10 (+20) Qap
+d: an
+ []
+
+! Undefined control sequence.
+<argument> ...ore \centering \aclhv \confidential 
+                                                  \@@par 
+l.228 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -580,7 +602,9 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[4] (./w266_paper.aux)
+[5
+
+] (./w266_paper.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -589,23 +613,23 @@ Package rerunfilecheck Info: File `w266_paper.out' has not changed.
  )
 (\end occurred when \ifx on line 18 was incomplete) 
 Here is how much of TeX's memory you used:
- 12759 strings out of 478268
- 206004 string characters out of 5846348
- 546126 words of memory out of 5000000
- 30588 multiletter control sequences out of 15000+600000
- 493992 words of font info for 189 fonts, out of 8000000 for 9000
+ 12847 strings out of 478268
+ 207096 string characters out of 5846348
+ 549218 words of memory out of 5000000
+ 30623 multiletter control sequences out of 15000+600000
+ 496259 words of font info for 222 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,10n,77p,1302b,348s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,10n,77p,2315b,486s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/tex
 mf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2022/texmf-dist/fonts/t
-ype1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/ur
-w/times/utmb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/ut
-mr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-
-Output written on w266_paper.pdf (4 pages, 152046 bytes).
+ype1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/ty
+pe1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw
+/times/utmb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utm
+r8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on w266_paper.pdf (5 pages, 165571 bytes).
 PDF statistics:
- 96 PDF objects out of 1000 (max. 8388607)
- 73 compressed objects within 1 object stream
- 37 named destinations out of 1000 (max. 500000)
- 30741 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 111 PDF objects out of 1000 (max. 8388607)
+ 85 compressed objects within 1 object stream
+ 43 named destinations out of 1000 (max. 500000)
+ 32277 words of extra memory for PDF output out of 35830 (max. 10000000)
 
